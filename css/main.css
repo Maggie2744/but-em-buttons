@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Ubuntu Condensed', sans-serif;
   color: #fff;
 }
 
@@ -34,12 +35,13 @@ header {
   background-position: right center;
   background-size: 30px auto;
   padding: .8em;
-  padding-left: 2em;
+  padding-left: 1em;
   padding-right: 2em;
 }
 
 .btn-ghost {
-  background-color: ;
+  background-color: transparent;
+  border-radius: 10px;
 }
 
 .btn:hover {
