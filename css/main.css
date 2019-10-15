@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  color: #fff;
 }
 
 *, *::before, *::after {
@@ -15,4 +16,13 @@ body {
   background-image: url("../images/starfield-texture.png");
   background-repeat: repeat;
   background-size: auto;
+}
+
+.btn {
+  background-color: ;
+  border-color: ;
+}
+
+.btn-ghost {
+  background-color: transparent;
 }
