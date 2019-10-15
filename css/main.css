@@ -18,11 +18,35 @@ body {
   background-size: auto;
 }
 
+h1, p {
+  filter: drop-shadow(1px 1px 8px rgba(255, 255, 255, .7));
+}
+
+header {
+  transform: translateY(100%);
+}
+
 .btn {
+  color: #b4fff4;
+  border-color: #b4fff4;
+  background-image: url("../images/rocket.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 30px auto;
+  padding: .8em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-ghost {
+  background-color: ;
+}
+
+.btn:hover {
   background-color: ;
   border-color: ;
 }
 
-.btn-ghost {
+.btn-ghost:hover {
   background-color: transparent;
 }
