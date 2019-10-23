@@ -30,7 +30,6 @@ header {
 .btn {
   color: #b4fff4;
   border-color: #b4fff4;
-  padding: .5em;
 }
 
 .btn-ghost {
@@ -48,5 +47,13 @@ header {
 }
 
 .btn-bottom {
+  border-bottom: #b4fff4;
+  position:
+}
 
+
+.btn:hover {
+  border-color: #b4fff4;
+  color: #b4fff4;
+  background-color: rgba(180, 255, 244, .2);
 }
