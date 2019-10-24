@@ -1,5 +1,4 @@
 html {
-  box-sizing: border-box;
   font-family: "Ubuntu Condensed", sans-serif;
   color: #fff;
 }
@@ -55,7 +54,7 @@ header {
 }
 
 .icon-move:hover {
-  transform: translateY(-0.3em);
+  transform: translateY(-.3em);
 }
 
 .bottom-border:hover {
