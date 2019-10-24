@@ -1,11 +1,7 @@
 html {
   box-sizing: border-box;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   color: #fff;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 img {
@@ -30,12 +26,13 @@ header {
 .btn {
   color: #b4fff4;
   border-color: #b4fff4;
-  transition: all .3s linear;
+  text-shadow: 1px 1px #90ccc3;
 }
 
 .btn-ghost {
   background-color: transparent;
   border-radius: 10px;
+  transition: background .3s linear;
 }
 
 .bottom-border {
@@ -45,7 +42,9 @@ header {
   padding-bottom: 1.7em;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus,
+.btn:active {
   border-color: #b4fff4;
   color: #b4fff4;
   background-color: rgba(180, 255, 244, .2);
