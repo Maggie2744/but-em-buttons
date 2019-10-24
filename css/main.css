@@ -30,6 +30,7 @@ header {
 .btn {
   color: #b4fff4;
   border-color: #b4fff4;
+  transition: all .3s linear;
 }
 
 .btn-ghost {
@@ -37,22 +38,28 @@ header {
   border-radius: 10px;
 }
 
-.btn:hover {
-  background-color: ;
-  border-color: ;
+.bottom-border {
+  border: 3px solid #b4fff4;
+  border-radius: 10px;
+  padding-top: .6em;
+  padding-bottom: 1.7em;
 }
-
-.btn-ghost:hover {
-  background-color: transparent;
-}
-
-.btn-bottom {
-  border-bottom: #b4fff4;
-  position:
-}
-
 
 .btn:hover {
+  border-color: #b4fff4;
+  color: #b4fff4;
+  background-color: rgba(180, 255, 244, .2);
+}
+
+.icon-move {
+  transition: all .3s linear;
+}
+
+.icon-move:hover {
+  transform: translateY(-0.3em);
+}
+
+.bottom-border:hover {
   border-color: #b4fff4;
   color: #b4fff4;
   background-color: rgba(180, 255, 244, .2);
