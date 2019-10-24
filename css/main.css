@@ -26,6 +26,7 @@ header {
   color: #b4fff4;
   border-color: #b4fff4;
   text-shadow: 1px 1px #90ccc3;
+  transition: border .3s linear;
 }
 
 .btn-ghost {
@@ -39,6 +40,7 @@ header {
   border-radius: 10px;
   padding-top: .6em;
   padding-bottom: 1.7em;
+  border-top: none;
 }
 
 .btn:hover,
@@ -57,8 +59,20 @@ header {
   transform: translateY(-.3em);
 }
 
-.bottom-border:hover {
+.bottom-border:hover,
+.bottom-border:active {
   border-color: #b4fff4;
   color: #b4fff4;
   background-color: rgba(180, 255, 244, .2);
+}
+
+.btn:active {
+  position: relative;
+  top: 10px;
+  transition: .5s ease;
+}
+
+.bottom-border:active {
+  transform: translateY(.3em);
+  transition: .5s ease;
 }
